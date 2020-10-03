@@ -18,12 +18,12 @@ body {
 	margin: 0.5em calc((100% - 960px)/2);
 }
 
-.content {
+main {
 	background: #FCFCFC;
 	border-radius: 0px 10px 10px 0px;
 	padding: 30px;
 }
-.nav {
+nav {
 	display: flex;
 	flex-direction: column;
 	/* overflow: hidden; */
@@ -85,7 +85,7 @@ h2 {
 		flex-direction: column;
 		margin: 0.5rem;
 	}
-	.nav {
+	nav {
 		flex-direction: row;
 		flex: 1 0 2em;
 		justify-content: stretch;
@@ -98,7 +98,7 @@ h2 {
 		border-radius: 10px 10px 0px 0px;
 		padding: 0;
 	}
-	.content {
+	main {
 		border-radius: 0px 0px 10px 10px;
 	}
 }
