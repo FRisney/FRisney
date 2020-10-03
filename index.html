@@ -4,6 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>FRisney GitHub Page</title>
+	<link rel="icon" href="">
 	<link rel="stylesheet" href="https://frisney.github.io/FRisney/style.css">
 	<!-- <link rel="stylesheet" href="style.css"> -->
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Raleway&display=swap" rel="stylesheet">
@@ -13,19 +14,19 @@
 	<h1 class="titulo">Felipe Ferreira Risney</h1>
 	<div class="container">
 		<div class="nav">
-			<button id="nav-perfil" class="nav-item selected">
+			<button onclick="changePage(this)" id="nav-perfil" class="nav-item selected">
 				<i class="fas fa-user"></i>
 			</button>
-			<button id="nav-projetos" class="nav-item">
+			<button onclick="changePage(this)" id="nav-projetos" class="nav-item">
 				<i class="fas fa-briefcase"></i>
 			</button>
-			<button id="nav-formacao" class="nav-item">
+			<button onclick="changePage(this)" id="nav-formacao" class="nav-item">
 				<i class="fas fa-university"></i>
 			</button>
-			<button id="nav-social" class="nav-item">
+			<button onclick="changePage(this)" id="nav-social" class="nav-item">
 				<i class="fas fa-at"></i>
 			</button>
-			<button id="nav-assinatura" class="nav-item">
+			<button onclick="changePage(this)" id="nav-assinatura" class="nav-item">
 				<i class="fas fa-fingerprint"></i>
 			</button>
 		</div>
@@ -48,5 +49,6 @@
 			</div>
 		</div>
 	</div>
+	<script src="/pager.js"></script>
 </body>
 </html>
