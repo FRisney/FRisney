@@ -61,6 +61,24 @@ nav {
 	color: #181818;
 }
 
+.page {
+	display: flex;
+	flex-wrap: wrap;
+	/* align-items: stretch; */
+	/* align-content: space-between; */
+	justify-content: center;
+}
+
+.resumo {
+	flex: 1 1 195px;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+.retrato {
+	flex-shrink: 1;
+}
+
 h1 {
 	font-family: 'Latin Modern';
 	font-style: normal;
