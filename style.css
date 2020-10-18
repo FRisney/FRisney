@@ -2,6 +2,14 @@
 	margin: 0
 }
 
+@font-face {
+	font-family: 'Latin Modern';
+	src:
+		url('lmmono.woff2') format('woff2'),
+		url('lmmono.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
 body {
 	background: #181818;
@@ -54,7 +62,7 @@ nav {
 }
 
 h1 {
-	font-family: Quicksand;
+	font-family: 'Latin Modern';
 	font-style: normal;
 	font-weight: bold;
 	font-size: 2.3em;
@@ -64,11 +72,15 @@ h1 {
 }
 
 h2 {
-	font-family: Quicksand;
+	flex: 1 0 100%;
+	align-self: stretch;
+	font-family: 'Latin Modern';
 	font-style: normal;
 	font-weight: bold;
 	font-size: 1.7em;
 	color: #181818;
+	letter-spacing: 0.05em;
+	margin-bottom: 1em;
 }
 
 @media only screen and (max-width: 975px){
